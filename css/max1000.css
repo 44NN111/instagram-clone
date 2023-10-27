@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    background: black;
+    color: #d8d8d8;
+}
+
+
+
+.siderbar {
+    display: flex;
+    justify-content: space-between;
+}
+.left-sidebar {
+    height: 100vh;
+    flex-basis: 6%;
+    position: relative;
+    position: sticky;
+    top: 0;
+    border-right: 1px solid rgb(61, 61, 61);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 10px;
+}
+.logo {
+    display: none;
+}
+.logo-mobile {
+    width: 40px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.menu-item {
+    display: flex;
+    padding: 10px 0;
+}
+.menu-item img {
+    width: 27px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.menu-item p {
+    display: none;
+}
+.more-nav {
+    padding-top: 80%;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 30px;
+}
+
+.right-sidebar {
+    display: none;
+}
+.profile-data {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.profile-username {
+    display: flex;
+    align-items: center;
+}
+.profile-data span {
+    font-size: 13px;
+    color: rgb(68, 110, 224);
+}
+
+.profile-username img {
+    width: 45px;
+    margin: 5px;
+    border-radius: 50%;
+}
+.usern-name {
+    padding: 0px 5px 0px 5px;
+}
+.usern-name h4 {
+    font-size: 10px;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+.menu-title {
+    padding-top: 30px;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu-title p {
+    padding: 2px 3px;
+    font-size: 12px;
+    color: rgb(87, 87, 87);
+}
+.menu-title a {
+    text-decoration: none;
+}
+.menu-title a:hover {
+    text-decoration: 1px underline rgb(87, 87, 87);
+
+}
+.menu-title span {
+    padding-top: 30px;
+    color: rgb(87, 87, 87);
+    font-size: 12px;
+}
+.main-content {
+    flex-basis: 90%;
+    height: 200vh;
+}
+.main-content-small {
+    width: 90%;
+    padding: 0px 20px;
+    justify-content: center;
+}
+.stories {
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+.stories img {
+    padding: 3px 3px;
+    width: 56px;
+    border-radius: 50%;
+    margin: 0 10px;
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+.story-username {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.story-username p {
+    padding-top: 7px;
+    font-size: 12px;
+}
+.post-area {
+    width: 95%;
+    margin: 0 auto;
+    padding: 20px 0px; 
+}
+
+.profile-header {
+    flex-basis: 95%;
+    margin: 30px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.profile-img img {
+    width: 45px;
+    border-radius: 50%;
+    padding-right: 10px;
+}
+
+.profile-img {
+    display: flex;
+    padding-right: 5px;
+    align-items: center;
+}
+
+.post-more {
+    align-self: flex-end;
+}
+.post-area video {
+    height: 500px;
+}
+.post-content {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #1c1e21;
+    border-radius: 4px;
+}
+.post-more p {
+    cursor: pointer;
+}
+.post-footer {
+    padding: 10px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.post-footer img {
+    cursor: pointer;
+    padding: 0px 3px;
+}
+.post-comment input {
+    width: 90%;
+    height: 25px;
+    background: transparent;
+    color: rgb(78, 77, 77);
+    border: 1px solid #1c1e21;
+    border-radius: 4px;
+    padding-left: 10px;
+}
+.post-comment {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    
+}
+.post-comment img {
+    width: 27px;
+    cursor: pointer;
+}
+.post-comment p {
+    padding: 10px 0px;
+}
+
+.after-comment {
+    display: flex;
+    justify-content: flex-start;
+
+    padding-top: 10px;
+}
+.after-comment a{
+    padding-right: 5px;
+    text-decoration: none;
+    color: white;
+}
+/* hide in mobile */
+.mobile-nav {
+    display: none;
+}
+/* end hide in mobile */
+.mobile-footer {
+    display: none;
+}
+
+    
