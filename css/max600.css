@@ -175,6 +175,7 @@ body {
     margin-top: 10px;
     display: flex;
     justify-content: flex-start;
+    padding: 0px 5px;
 }
 .story-username:last-child {
     display: none;
