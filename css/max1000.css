@@ -175,6 +175,10 @@ body {
 .post-area video {
     height: 500px;
 }
+
+.post-content img {
+    width: 100%;
+}
 .post-content {
     display: flex;
     justify-content: center;
